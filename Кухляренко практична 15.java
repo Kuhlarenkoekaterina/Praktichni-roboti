@@ -68,14 +68,6 @@ public class Main {
         return 0;
     }
 
-
-
-    /*
-    playerTurn
-    size
-    winner
-    date n time
-     */
     public static void statistika (int playerTurn){
         System.out.println("Статистику гри збережено у папці проекту");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("statistika.txt"))) {
